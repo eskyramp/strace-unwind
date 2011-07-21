@@ -17,6 +17,8 @@ strace_SOURCES = strace.c syscall.c count.c util.c desc.c file.c ipc.c \
 		 resource.c signal.c sock.c system.c term.c time.c \
 		 proc.c scsi.c stream.c
 noinst_HEADERS = defs.h
+strace_LDFLAGS = -lunwind -lunwind-generic
+strace_LDADD   = -lunwind-ptrace
 
 EXTRA_DIST = $(man_MANS) errnoent.sh signalent.sh syscallent.sh ioctlsort.c \
 	     debian/changelog debian/control debian/copyright debian/rules \
