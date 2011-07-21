@@ -1,0 +1,524 @@
+execve("../../test2", ["../../test2"], [/* 41 vars */]
+***********
+			realloc (ip = 0x7f3568c99af0)
+
+***********
+
+) = 0
+brk(0
+***********
+			realloc (ip = 0x7f3568caf3ba)
+			_dl_make_stack_executable (ip = 0x7f3568cadfe4)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x220c000
+access("/etc/ld.so.nohwcap", F_OK
+***********
+			realloc (ip = 0x7f3568cb00c7)
+			_dl_make_stack_executable (ip = 0x7f3568cae4ed)
+			realloc (ip = 0x7f3568ca0a16)
+			realloc (ip = 0x7f3568c9bee8)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+***********
+			realloc (ip = 0x7f3568cb024a)
+			__libc_memalign (ip = 0x7f3568caedce)
+			realloc (ip = 0x7f3568ca0a6c)
+			realloc (ip = 0x7f3568c9bee8)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x7f3568eb7000
+access("/etc/ld.so.preload", R_OK
+***********
+			realloc (ip = 0x7f3568cb00c7)
+			realloc (ip = 0x7f3568c9c059)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY
+***********
+			realloc (ip = 0x7f3568cb0007)
+			_dl_debug_state (ip = 0x7f3568ca8799)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca1d90)
+			realloc (ip = 0x7f3568ca128f)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 3
+fstat(3, 
+***********
+			realloc (ip = 0x7f3568caffd4)
+			_dl_debug_state (ip = 0x7f3568ca87b5)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca1d90)
+			realloc (ip = 0x7f3568ca128f)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+{st_mode=S_IFREG|0644, st_size=164689, ...}) = 0
+mmap(NULL, 164689, PROT_READ, MAP_PRIVATE, 3, 0
+***********
+			realloc (ip = 0x7f3568cb024a)
+			_dl_debug_state (ip = 0x7f3568ca8817)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca1d90)
+			realloc (ip = 0x7f3568ca128f)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x7f3568e8e000
+close(3
+***********
+			realloc (ip = 0x7f3568cb0037)
+			_dl_debug_state (ip = 0x7f3568ca87ce)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca1d90)
+			realloc (ip = 0x7f3568ca128f)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+access("/etc/ld.so.nohwcap", F_OK
+***********
+			realloc (ip = 0x7f3568cb00c7)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca1c9e)
+			realloc (ip = 0x7f3568ca128f)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY
+***********
+			realloc (ip = 0x7f3568cb0007)
+			realloc (ip = 0x7f3568c9e720)
+			realloc (ip = 0x7f3568ca12e7)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 3
+read(3, 
+***********
+			realloc (ip = 0x7f3568cb0067)
+			realloc (ip = 0x7f3568c9e750)
+			realloc (ip = 0x7f3568ca12e7)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+"\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\360\1\0\0\0\0\0"..., 832) = 832
+fstat(3, 
+***********
+			realloc (ip = 0x7f3568caffd4)
+			realloc (ip = 0x7f3568c9f23a)
+			realloc (ip = 0x7f3568ca10cf)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+{st_mode=S_IFREG|0755, st_size=1638120, ...}) = 0
+mmap(NULL, 3749080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+***********
+			realloc (ip = 0x7f3568cb024a)
+			realloc (ip = 0x7f3568c9f78a)
+			realloc (ip = 0x7f3568ca10cf)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x7f3568905000
+mprotect(0x7f3568a8f000, 2093056, PROT_NONE
+***********
+			realloc (ip = 0x7f3568cb02a7)
+			realloc (ip = 0x7f3568c9f915)
+			realloc (ip = 0x7f3568ca10cf)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+mmap(0x7f3568c8e000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x189000
+***********
+			realloc (ip = 0x7f3568cb024a)
+			realloc (ip = 0x7f3568c9f8d9)
+			realloc (ip = 0x7f3568ca10cf)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x7f3568c8e000
+mmap(0x7f3568c93000, 21720, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+***********
+			realloc (ip = 0x7f3568cb024a)
+			realloc (ip = 0x7f3568c9fd7e)
+			realloc (ip = 0x7f3568ca10cf)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x7f3568c93000
+close(3
+***********
+			realloc (ip = 0x7f3568cb0037)
+			realloc (ip = 0x7f3568c9fb34)
+			realloc (ip = 0x7f3568ca10cf)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5692)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca7746)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca5d56)
+			realloc (ip = 0x7f3568c9c095)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+***********
+			realloc (ip = 0x7f3568cb024a)
+			__libc_memalign (ip = 0x7f3568caedce)
+			realloc (ip = 0x7f3568c9af2e)
+			realloc (ip = 0x7f3568c9d565)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x7f3568e8d000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+***********
+			realloc (ip = 0x7f3568cb024a)
+			__libc_memalign (ip = 0x7f3568caedce)
+			_dl_get_tls_static_info (ip = 0x7f3568caa4ea)
+			realloc (ip = 0x7f3568c9af94)
+			realloc (ip = 0x7f3568c9d565)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0x7f3568e8b000
+arch_prctl(ARCH_SET_FS, 0x7f3568e8b720
+***********
+			realloc (ip = 0x7f3568c9afba)
+			realloc (ip = 0x7f3568c9d565)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+mprotect(0x7f3568c8e000, 16384, PROT_READ
+***********
+			realloc (ip = 0x7f3568cb02a7)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca4d5e)
+			realloc (ip = 0x7f3568c9c45a)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+mprotect(0x600000, 4096, PROT_READ
+***********
+			realloc (ip = 0x7f3568cb02a7)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca4d5e)
+			realloc (ip = 0x7f3568c9c45a)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+mprotect(0x7f3568eb9000, 4096, PROT_READ
+***********
+			realloc (ip = 0x7f3568cb02a7)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca4d5e)
+			realloc (ip = 0x7f3568c9c67d)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+munmap(0x7f3568e8e000, 164689
+***********
+			realloc (ip = 0x7f3568cb0277)
+			_dl_rtld_di_serinfo (ip = 0x7f3568ca22f1)
+			realloc (ip = 0x7f3568c9c543)
+			_dl_make_stack_executable (ip = 0x7f3568cae03b)
+			realloc (ip = 0x7f3568c9dba8)
+			realloc (ip = 0x7f3568c99af8)
+
+***********
+
+) = 0
+write(2, "This is main\n", 13This is main
+
+***********
+			__write (ip = 0x7f35689dc3a0)
+			_IO_file_write (ip = 0x7f3568977773)
+			fwide (ip = 0x7f35689773ba)
+			_IO_file_xsputn (ip = 0x7f35689776fe)
+			fwrite (ip = 0x7f356896d72d)
+			main (ip = 0x400717)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 13
+brk(0
+***********
+			brk (ip = 0x7f35689e214a)
+			__sbrk (ip = 0x7f35689e222e)
+			__default_morecore (ip = 0x7f3568983ba9)
+			_IO_str_pbackfail (ip = 0x7f356897f305)
+			__libc_malloc (ip = 0x7f356898131e)
+			fgets (ip = 0x7f356896cc5b)
+			main (ip = 0x40072c)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 0x220c000
+brk(0x222d000
+***********
+			brk (ip = 0x7f35689e214a)
+			__sbrk (ip = 0x7f35689e21f5)
+			__default_morecore (ip = 0x7f3568983ba9)
+			_IO_str_pbackfail (ip = 0x7f356897f305)
+			__libc_malloc (ip = 0x7f356898131e)
+			fgets (ip = 0x7f356896cc5b)
+			main (ip = 0x40072c)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 0x222d000
+open("shit.txt", O_RDWR|O_CREAT|O_TRUNC, 0666
+***********
+			__open64 (ip = 0x7f35689dbff0)
+			_IO_file_fopen (ip = 0x7f356897831f)
+			fgets (ip = 0x7f356896ccb6)
+			main (ip = 0x40072c)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 3
+open("ZzZ", O_RDONLY
+***********
+			__open64 (ip = 0x7f35689dbff0)
+			foo (ip = 0x4006b3)
+			main (ip = 0x40073a)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = -1 ENOENT (No such file or directory)
+fstat(1, 
+***********
+			__fxstat64 (ip = 0x7f35689db764)
+			_IO_file_doallocate (ip = 0x7f356896bfeb)
+			_IO_doallocbuf (ip = 0x7f3568979a5c)
+			_IO_file_overflow (ip = 0x7f3568978ce0)
+			_IO_file_xsputn (ip = 0x7f356897751d)
+			_IO_puts (ip = 0x7f356896e7be)
+			foo (ip = 0x4006c9)
+			main (ip = 0x40073a)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+{st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+***********
+			mmap64 (ip = 0x7f35689e67ea)
+			_IO_file_doallocate (ip = 0x7f356896c046)
+			_IO_doallocbuf (ip = 0x7f3568979a5c)
+			_IO_file_overflow (ip = 0x7f3568978ce0)
+			_IO_file_xsputn (ip = 0x7f356897751d)
+			_IO_puts (ip = 0x7f356896e7be)
+			foo (ip = 0x4006c9)
+			main (ip = 0x40073a)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 0x7f3568eb6000
+write(1, "This is a test\n", 15
+***********
+			__write (ip = 0x7f35689dc3a0)
+			_IO_file_write (ip = 0x7f3568977773)
+			fwide (ip = 0x7f35689773ba)
+			_IO_do_write (ip = 0x7f3568978925)
+			_IO_file_overflow (ip = 0x7f3568978ca7)
+			_IO_puts (ip = 0x7f356896e8c1)
+			foo (ip = 0x4006c9)
+			main (ip = 0x40073a)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 15
+write(1, "This is a test\n", 15
+***********
+			__write (ip = 0x7f35689dc3a0)
+			_IO_file_write (ip = 0x7f3568977773)
+			fwide (ip = 0x7f35689773ba)
+			_IO_do_write (ip = 0x7f3568978925)
+			_IO_file_overflow (ip = 0x7f3568978ca7)
+			_IO_puts (ip = 0x7f356896e8c1)
+			foo (ip = 0x4006c9)
+			main (ip = 0x40073a)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 15
+write(1, "This is a test\n", 15
+***********
+			__write (ip = 0x7f35689dc3a0)
+			_IO_file_write (ip = 0x7f3568977773)
+			fwide (ip = 0x7f35689773ba)
+			_IO_do_write (ip = 0x7f3568978925)
+			_IO_file_overflow (ip = 0x7f3568978ca7)
+			_IO_puts (ip = 0x7f356896e8c1)
+			foo (ip = 0x4006c9)
+			main (ip = 0x40073a)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 15
+close(4294967295
+***********
+			close (ip = 0x7f35689dc2e0)
+			foo (ip = 0x4006e4)
+			main (ip = 0x40073a)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = -1 EBADF (Bad file descriptor)
+close(3
+***********
+			close (ip = 0x7f35689dc2e0)
+			_IO_file_close_it (ip = 0x7f3568977e03)
+			fclose (ip = 0x7f356896c260)
+			main (ip = 0x400746)
+			__libc_start_main (ip = 0x7f3568923eff)
+			_start (ip = 0x4005d9)
+
+***********
+
+) = 0
+exit_group(0)                           = ?
